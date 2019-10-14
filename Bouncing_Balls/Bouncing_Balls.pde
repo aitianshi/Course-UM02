@@ -42,6 +42,7 @@ public class Ball {
   }
 
   public void draw() {
+    strokeWeight(0);
     fill(this.rgb.getRed(), this.rgb.getGreen(), this.rgb.getBlue());
     circle(this.x, this.y, this.radius);
   }
