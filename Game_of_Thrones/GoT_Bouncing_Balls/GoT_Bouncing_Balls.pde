@@ -145,28 +145,5 @@ void draw() {
   for (int i=0; i<characters.size(); i++) {
     characters.get(i).draw();
     characters.get(i).move();
-  }
-  
-  
-  /*
-  for (int i=0; i<nbBalls; i++) {
-    balls.add(new Ball());
-    balls.get(i).draw();
-    balls.get(i).move();
-  }
-  */
-  
-  /*
-  for (int j=0; j<nbBalls; j++){
-    for (int k=0; k<nbBalls; k++){
-      if(j!=k && balls.get(j).close(balls.get(k))){
-        strokeWeight(4);
-        strokeCap(ROUND);
-        stroke(255,255,255);
-        line(balls.get(j).x, balls.get(j).y, balls.get(k).x, balls.get(k).y);
-      }
-    }
-  }
-  */
-  
+  }  
 }
