@@ -1,0 +1,24 @@
+svg {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
+circle.head {
+    fill: none;
+    stroke: black;
+    stroke-width: 4px;
+}
+
+circle.eye {
+    fill: black;
+    stroke-width: 0.5px;
+}
+
+line.body {
+    stroke: black;
+    stroke-width: 4px;
+}
