@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    $('circle.head').hover(
+    $('.head').hover(
         () => {
         $('circle.head').css({
             "fill": "red", 
