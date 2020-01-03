@@ -1,0 +1,10 @@
+#mapChange {
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+	background-color: black;
+}
+
+#map {
+	z-index: 2;
+}

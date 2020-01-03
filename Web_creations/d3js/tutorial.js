@@ -22,8 +22,10 @@ const chart = d3.select("svg.chart")
     .attr("width", width)
 
 d3.tsv("tsv_data.tsv").then(tsv_data => {
-    /* Should print 42 !*/
-    console.log(d3.max(tsv_data, d => d.value))
+
+    tsv_data.forEach(el => {
+        el.value = parseInt(el.value)
+    })
 
     y.domain([0, d3.max(tsv_data, d => d.value)])
 
